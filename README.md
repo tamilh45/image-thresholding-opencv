@@ -55,8 +55,6 @@ Convert the input image into grayscale format.
 
 Compare the results obtained from Global, Adaptive, and Otsu's thresholding methods.
 
-## Program
-
 ## Developed By
 
 ## Name: Tamil Pavalan M    
@@ -114,10 +112,7 @@ plt.show()
 
 ## Output
 
-### Original Grayscale Image
-
-- The grayscale version of the input image is displayed.
-- Serves as the input for thresholding operations.
+<img width="291" height="202" alt="image" src="https://github.com/user-attachments/assets/29b6bc93-f6ff-4d8d-881a-6a6a50fa9689" />
 
 ### Global Thresholding
 
@@ -125,6 +120,8 @@ plt.show()
 - Thresholded image is displayed.
 - A fixed threshold value is used for segmentation.
 - Pixels are classified as foreground or background.
+
+<img width="297" height="203" alt="image" src="https://github.com/user-attachments/assets/3176a17e-23b4-4f98-bbab-60ba06c05ea1" />
 
 ### Adaptive Thresholding
 
@@ -134,6 +131,8 @@ plt.show()
 - Threshold values vary across different regions of the image.
 - Suitable for images with uneven illumination.
 
+<img width="290" height="197" alt="image" src="https://github.com/user-attachments/assets/014cdb51-cf93-4f8c-b049-f4fa0dbd5ee6" />
+
 ### Otsu's Thresholding
 
 - Original image is displayed.
@@ -141,6 +140,7 @@ plt.show()
 - Optimal threshold value is calculated automatically.
 - Produces improved segmentation for bimodal histograms.
 
+<img width="383" height="252" alt="image" src="https://github.com/user-attachments/assets/913b1de3-986e-4969-a307-96b957b22d35" />
 
 ## Result
 
